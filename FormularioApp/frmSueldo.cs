@@ -40,32 +40,91 @@ namespace FormularioApp
                 this.txtNombre.Focus();
                 return;
             }
+            if (this.txtHorasTrabajadas.Text.Length == 0)
+            {
+                MessageBox.Show("Por Favor debes ingresar las Horas Trabajadas");
+                this.txtHorasTrabajadas.Focus();
+                return;
+            }
+            if (this.txtValorHora.Text.Length == 0)
+            {
+                MessageBox.Show("Por Favor debes ingresar las Horas de su valor");
+                this.txtValorHora.Focus();
+                return;
+            }
+            if (this.txtBono.Text.Length == 0)
+            {
+                MessageBox.Show("Por Favor debes ingresar los Bonos recibidos");
+                this.txtBono.Focus();
+                return;
+            }
+            if (this.txtAsoTrabajadores.Text.Length == 0)
+            {
+                MessageBox.Show("Por Favor debes ingresar el egreso de asociacion de Trabajador");
+                this.txtAsoTrabajadores.Focus();
+                return;
+            }
+            if (this.txtBar.Text.Length == 0)
+            {
+                MessageBox.Show("Por Favor debes ingresar el egreso del Bar");
+                this.txtBar.Focus();
+                return;
+            }
+            if (this.txtCuentaPorPagar.Text.Length == 0)
+            {
+                MessageBox.Show("Por Favor debes ingresar el egreso de cuentas por pagar");
+                this.txtCuentaPorPagar.Focus();
+                return;
+            }
 
             double horasTrabajadas = double.Parse(this.txtHorasTrabajadas.Text);
-            double valorHora = double.Parse(this.txtValorHora.Text);
-            double bono = double.Parse(this.txtBono.Text);
-            double totIng = horasTrabajadas * valorHora + bono;
-            //Mostrar total de ingresos en el cuadro de texto
+                double valorHora = double.Parse(this.txtValorHora.Text);
+                double bono = double.Parse(this.txtBono.Text);
+                double totIng = horasTrabajadas * valorHora + bono;
+                return;
 
-            this.txtTotalIng.Text = totIng.ToString();
+                //Mostrar total de ingresos en el cuadro de texto
 
-            //sumar egresos
+                this.txtTotalIng.Text = totIng.ToString();
 
-            double asoTrabajadores = double.Parse(this.txtAsoTrabajadores.Text);
-            double bar = double.Parse(this.txtBar.Text);
-            double cuentaPorPagar = double.Parse(this.txtCuentaPorPagar.Text);
-            double totEgresos = asoTrabajadores + bar + cuentaPorPagar;
-            this.txtTotalEgresos.Text = totEgresos.ToString();
+                //sumar egresos
 
-            double liquidoRecibir = totIng - totEgresos;
+                double asoTrabajadores = double.Parse(this.txtAsoTrabajadores.Text);
+                double bar = double.Parse(this.txtBar.Text);
+                double cuentaPorPagar = double.Parse(this.txtCuentaPorPagar.Text);
+                double totEgresos = asoTrabajadores + bar + cuentaPorPagar;
+                this.txtTotalEgresos.Text = totEgresos.ToString();
 
-            lblResultados.Text = "Estimado, " + this.txtNombre.Text + ", tu sueldo es: " + liquidoRecibir.ToString();
+                double liquidoRecibir = totIng - totEgresos;
 
+                lblResultados.Text = "Estimado, " + this.txtNombre.Text + ", tu sueldo es: " + liquidoRecibir.ToString();
+             
+           
         }
-
+      
         private void btnSalir_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void txtHorasTrabajadas_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void frmSueldo_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblResultados_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
