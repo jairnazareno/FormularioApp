@@ -100,6 +100,7 @@
             this.txtBono.Name = "txtBono";
             this.txtBono.Size = new System.Drawing.Size(100, 20);
             this.txtBono.TabIndex = 6;
+            this.txtBono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBono_KeyPress);
             // 
             // txtValorHora
             // 
@@ -107,6 +108,7 @@
             this.txtValorHora.Name = "txtValorHora";
             this.txtValorHora.Size = new System.Drawing.Size(100, 20);
             this.txtValorHora.TabIndex = 5;
+            this.txtValorHora.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValorHora_KeyPress);
             // 
             // txtHorasTrabajadas
             // 
@@ -115,6 +117,7 @@
             this.txtHorasTrabajadas.Size = new System.Drawing.Size(100, 20);
             this.txtHorasTrabajadas.TabIndex = 4;
             this.txtHorasTrabajadas.TextChanged += new System.EventHandler(this.txtHorasTrabajadas_TextChanged);
+            this.txtHorasTrabajadas.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtHorasTrabajadas_KeyPress);
             // 
             // label6
             // 
@@ -184,6 +187,7 @@
             this.txtCuentaPorPagar.Size = new System.Drawing.Size(100, 20);
             this.txtCuentaPorPagar.TabIndex = 6;
             this.txtCuentaPorPagar.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.txtCuentaPorPagar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCuentaPorPagar_KeyPress);
             // 
             // txtBar
             // 
@@ -191,6 +195,7 @@
             this.txtBar.Name = "txtBar";
             this.txtBar.Size = new System.Drawing.Size(100, 20);
             this.txtBar.TabIndex = 5;
+            this.txtBar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBar_KeyPress);
             // 
             // txtAsoTrabajadores
             // 
@@ -198,6 +203,7 @@
             this.txtAsoTrabajadores.Name = "txtAsoTrabajadores";
             this.txtAsoTrabajadores.Size = new System.Drawing.Size(100, 20);
             this.txtAsoTrabajadores.TabIndex = 4;
+            this.txtAsoTrabajadores.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtAsoTrabajadores_KeyPress);
             // 
             // label10
             // 
@@ -255,6 +261,7 @@
             this.txtNombre.Size = new System.Drawing.Size(212, 20);
             this.txtNombre.TabIndex = 4;
             this.txtNombre.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             // 
             // lblResultados
             // 
