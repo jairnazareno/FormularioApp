@@ -52,6 +52,7 @@
             this.label1.Size = new System.Drawing.Size(267, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Ingresa el numero a transformar";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // groupBox1
             // 
@@ -69,6 +70,7 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // chk1
             // 
@@ -85,6 +87,7 @@
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(220, 20);
             this.txtNumero.TabIndex = 3;
+            this.txtNumero.TextChanged += new System.EventHandler(this.txtNumero_TextChanged);
             // 
             // chk2
             // 

@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmDeBinarioADecimal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeBinarioADecimal.Designer.cs">
+      <DependentUpon>frmDeBinarioADecimal.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmNumEnBin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmDeBinarioADecimal.resx">
+      <DependentUpon>frmDeBinarioADecimal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmNumEnBin.resx">
       <DependentUpon>frmNumEnBin.cs</DependentUpon>
     </EmbeddedResource>
