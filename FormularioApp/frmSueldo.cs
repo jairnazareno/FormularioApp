@@ -98,8 +98,8 @@ namespace FormularioApp
                 double liquidoRecibir = totIng - totEgresos;
 
                 lblResultados.Text = "Estimado, " + this.txtNombre.Text + ", tu sueldo es: " + liquidoRecibir.ToString();
-             
-           
+
+          
         }
       
         private void btnSalir_Click(object sender, EventArgs e)
@@ -196,5 +196,6 @@ namespace FormularioApp
                 return;
             }
         }
+        
     }
 }
