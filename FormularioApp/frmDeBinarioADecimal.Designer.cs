@@ -62,6 +62,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.chk8);
             this.groupBox1.Controls.Add(this.chk6);
             this.groupBox1.Controls.Add(this.chk7);
@@ -75,7 +76,7 @@
             this.groupBox1.Size = new System.Drawing.Size(372, 100);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "BinarioDecimal";
             // 
             // chk8
             // 
@@ -152,6 +153,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 23);
             this.label1.Name = "label1";
@@ -163,7 +165,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::FormularioApp.Properties.Resources.pastizal_;
+            this.ClientSize = new System.Drawing.Size(650, 337);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.txtNumero);
             this.Controls.Add(this.groupBox1);

@@ -21,22 +21,22 @@ namespace FormularioApp
         {
             if (this.txtNumero.Text.Length == 0)
             {
-                MessageBox.Show("Por Favor debes ingresar un numero");
+                MessageBox.Show("DEBES INGRESAR UN NUMERO");
                 this.txtNumero.Focus();
                 return;
             }
             int numero = int.Parse(this.txtNumero.Text);
-            comprobacion(numero);
+            primo(numero);
         }
-        void comprobacion(int numero)
+        void primo(int numero)
         {
-            int a = 0;
-            for (int i = 1; i <= numero; i++)
+            int n = 0;
+            for (int j = 1; j <= numero; j++)
             {
-                if ((numero % i) == 0)
-                    a = a + 1;
+                if ((numero % j) == 0)
+                    n = n + 1;
             }
-            if (a > 2)
+            if (n > 2)
                 this.lblRespuesta.Text = "El numero no es Primo";
             else
                 this.lblRespuesta.Text = "El numero es Primo";

@@ -24,6 +24,10 @@ namespace FormularioApp
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
+     
+        }
+        private void btnCalcular1_Click(object sender, EventArgs e)
+        {
             //validar que este en el rango
             int num = Int32.Parse(this.txtNumero.Text);
 
@@ -35,7 +39,6 @@ namespace FormularioApp
             }
             encerar();
             numeroBinario(num);
-
         }
         void encerar()
         {
@@ -98,5 +101,12 @@ namespace FormularioApp
         {
 
         }
+
+        private void chk4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+       
     }
 }

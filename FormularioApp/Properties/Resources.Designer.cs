@@ -109,5 +109,15 @@ namespace FormularioApp.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Preview_Pack_Chip_BG_1920x1080 {
+            get {
+                object obj = ResourceManager.GetObject("Preview+Pack+Chip+BG+1920x1080", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

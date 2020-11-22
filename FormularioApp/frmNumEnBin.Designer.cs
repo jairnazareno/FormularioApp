@@ -40,6 +40,7 @@
             this.chk1 = new System.Windows.Forms.CheckBox();
             this.txtNumero = new System.Windows.Forms.TextBox();
             this.btnCalcular = new System.Windows.Forms.Button();
+            this.btnCalcular1 = new System.Windows.Forms.Button();
             this.EnteroDecimal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -119,6 +120,7 @@
             this.chk4.Size = new System.Drawing.Size(15, 14);
             this.chk4.TabIndex = 5;
             this.chk4.UseVisualStyleBackColor = true;
+            this.chk4.CheckedChanged += new System.EventHandler(this.chk4_CheckedChanged);
             // 
             // chk3
             // 
@@ -165,12 +167,23 @@
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
+            // btnCalcular1
+            // 
+            this.btnCalcular1.Location = new System.Drawing.Point(345, 128);
+            this.btnCalcular1.Name = "btnCalcular1";
+            this.btnCalcular1.Size = new System.Drawing.Size(75, 23);
+            this.btnCalcular1.TabIndex = 5;
+            this.btnCalcular1.Text = "CALCULAR";
+            this.btnCalcular1.UseVisualStyleBackColor = true;
+            this.btnCalcular1.Click += new System.EventHandler(this.btnCalcular1_Click);
+            // 
             // frmNumEnBin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::FormularioApp.Properties.Resources.casa_kame_de_dragon_ball_3840x2160_xtrafondos_com;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnCalcular1);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.txtNumero);
             this.Controls.Add(this.EnteroDecimal);
@@ -199,5 +212,6 @@
         private System.Windows.Forms.CheckBox chk1;
         private System.Windows.Forms.TextBox txtNumero;
         private System.Windows.Forms.Button btnCalcular;
+        private System.Windows.Forms.Button btnCalcular1;
     }
 }

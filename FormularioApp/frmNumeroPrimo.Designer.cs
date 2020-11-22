@@ -69,9 +69,9 @@
             this.lblRespuesta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRespuesta.Location = new System.Drawing.Point(356, 168);
             this.lblRespuesta.Name = "lblRespuesta";
-            this.lblRespuesta.Size = new System.Drawing.Size(51, 16);
+            this.lblRespuesta.Size = new System.Drawing.Size(83, 16);
             this.lblRespuesta.TabIndex = 3;
-            this.lblRespuesta.Text = "label2";
+            this.lblRespuesta.Text = "Respuesta";
             // 
             // frmNumeroPrimo
             // 

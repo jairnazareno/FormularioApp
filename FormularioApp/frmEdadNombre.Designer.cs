@@ -33,6 +33,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtEdad = new System.Windows.Forms.TextBox();
+            this.lblRespuesta = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnCalcular
@@ -83,12 +84,23 @@
             this.txtEdad.Size = new System.Drawing.Size(249, 20);
             this.txtEdad.TabIndex = 4;
             // 
+            // lblRespuesta
+            // 
+            this.lblRespuesta.AutoSize = true;
+            this.lblRespuesta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRespuesta.Location = new System.Drawing.Point(27, 244);
+            this.lblRespuesta.Name = "lblRespuesta";
+            this.lblRespuesta.Size = new System.Drawing.Size(96, 20);
+            this.lblRespuesta.TabIndex = 5;
+            this.lblRespuesta.Text = "Respuesta";
+            // 
             // frmEdadNombre
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::FormularioApp.Properties.Resources.fondos_de_pantalla_para_programadores_CodeWallpaper2;
             this.ClientSize = new System.Drawing.Size(683, 301);
+            this.Controls.Add(this.lblRespuesta);
             this.Controls.Add(this.txtEdad);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.label2);
@@ -108,5 +120,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtEdad;
+        private System.Windows.Forms.Label lblRespuesta;
     }
 }

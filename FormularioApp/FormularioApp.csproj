@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAños.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAños.Designer.cs">
+      <DependentUpon>frmAños.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDeBinarioADecimal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAños.resx">
+      <DependentUpon>frmAños.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDeBinarioADecimal.resx">
       <DependentUpon>frmDeBinarioADecimal.cs</DependentUpon>
     </EmbeddedResource>
@@ -130,6 +139,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\fondos-de-pantalla-para-programadores-CodeWallpaper2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Preview+Pack+Chip+BG+1920x1080.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
