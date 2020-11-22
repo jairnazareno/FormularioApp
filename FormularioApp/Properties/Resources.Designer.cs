@@ -83,6 +83,16 @@ namespace FormularioApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap creeper_de_minecraft_3411_scaled {
+            get {
+                object obj = ResourceManager.GetObject("creeper-de-minecraft-3411-scaled", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pastizal_ {
             get {
                 object obj = ResourceManager.GetObject("pastizal ", resourceCulture);

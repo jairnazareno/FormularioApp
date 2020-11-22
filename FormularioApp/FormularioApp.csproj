@@ -116,5 +116,8 @@
   <ItemGroup>
     <None Include="Resources\casa-kame-de-dragon-ball_3840x2160_xtrafondos.com.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\creeper-de-minecraft-3411-scaled.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
