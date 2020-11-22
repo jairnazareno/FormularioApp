@@ -93,5 +93,10 @@ namespace FormularioApp
         {
 
         }
+
+        private void frmNumEnBin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

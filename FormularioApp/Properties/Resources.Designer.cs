@@ -73,6 +73,16 @@ namespace FormularioApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap casa_kame_de_dragon_ball_3840x2160_xtrafondos_com {
+            get {
+                object obj = ResourceManager.GetObject("casa-kame-de-dragon-ball_3840x2160_xtrafondos.com", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pastizal_ {
             get {
                 object obj = ResourceManager.GetObject("pastizal ", resourceCulture);

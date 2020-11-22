@@ -58,6 +58,12 @@
     <Compile Include="frmNumEnBin.Designer.cs">
       <DependentUpon>frmNumEnBin.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmNumeroPrimo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNumeroPrimo.Designer.cs">
+      <DependentUpon>frmNumeroPrimo.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmSueldo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmNumEnBin.resx">
       <DependentUpon>frmNumEnBin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNumeroPrimo.resx">
+      <DependentUpon>frmNumeroPrimo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSueldo.resx">
       <DependentUpon>frmSueldo.cs</DependentUpon>
@@ -103,6 +112,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pastizal .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\casa-kame-de-dragon-ball_3840x2160_xtrafondos.com.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
