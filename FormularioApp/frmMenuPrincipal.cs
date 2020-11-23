@@ -39,7 +39,8 @@ namespace FormularioApp
 
         private void btnFormularioNuevo_Click(object sender, EventArgs e)
         {
-
+            frmAños frm1 = new frmAños();
+            frm1.ShowDialog();
         }
     }
 }
