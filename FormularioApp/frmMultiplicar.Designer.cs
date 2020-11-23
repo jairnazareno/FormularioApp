@@ -32,9 +32,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtNumero = new System.Windows.Forms.TextBox();
             this.txtLimite = new System.Windows.Forms.TextBox();
-            this.txtRespuesta = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnCalcular = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // label1
@@ -71,14 +71,6 @@
             this.txtLimite.Size = new System.Drawing.Size(100, 20);
             this.txtLimite.TabIndex = 3;
             // 
-            // txtRespuesta
-            // 
-            this.txtRespuesta.Location = new System.Drawing.Point(159, 232);
-            this.txtRespuesta.Multiline = true;
-            this.txtRespuesta.Name = "txtRespuesta";
-            this.txtRespuesta.Size = new System.Drawing.Size(112, 183);
-            this.txtRespuesta.TabIndex = 4;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -99,14 +91,22 @@
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(149, 228);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(120, 173);
+            this.listBox1.TabIndex = 7;
+            // 
             // frmMultiplicar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(422, 441);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtRespuesta);
             this.Controls.Add(this.txtLimite);
             this.Controls.Add(this.txtNumero);
             this.Controls.Add(this.label2);
@@ -124,8 +124,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtNumero;
         private System.Windows.Forms.TextBox txtLimite;
-        private System.Windows.Forms.TextBox txtRespuesta;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnCalcular;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }

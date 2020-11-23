@@ -19,14 +19,15 @@ namespace FormularioApp
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
+            listBox1.Items.Clear();
             int tabla = int.Parse(txtNumero.Text);
             int limite = int.Parse(txtLimite.Text);
             int resultado;
 
             for(int i=1; i<=limite; i++)
             {
-                resultado = tabla * 1;
-                ListBox.items.
+                resultado = tabla * i;
+                listBox1.Items.Add(tabla+" x "+i+"="+resultado);
             }
         }
     }
