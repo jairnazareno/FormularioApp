@@ -76,6 +76,12 @@
     <Compile Include="frmMenuPrincipal.Designer.cs">
       <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMultiplicar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMultiplicar.Designer.cs">
+      <DependentUpon>frmMultiplicar.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmNumEnBin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMenuPrincipal.resx">
       <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMultiplicar.resx">
+      <DependentUpon>frmMultiplicar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmNumEnBin.resx">
       <DependentUpon>frmNumEnBin.cs</DependentUpon>
