@@ -10,24 +10,26 @@ using System.Windows.Forms;
 
 namespace FormularioApp
 {
-    public partial class frmMultiplicar : Form
+    public partial class frmFactorial : Form
     {
-        public frmMultiplicar()
+        public frmFactorial()
         {
             InitializeComponent();
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Clear();
-            int tabla = int.Parse(txtNumero.Text);
-            int resultado;
+			int num, i;
+			double result = 1;
+		
+			num = int.Parse(txtNumero.Text);
+			for (i = 2; i <= num; i++)
+			{
+				result = result * i;
+			}
+			
+			txtRespuesta.Text = "El factorial del numero es :  " + result;
 
-            for(int i=1; i<=10; i++)
-            {
-                resultado = tabla * i;
-                listBox1.Items.Add(tabla+" x "+i+"="+resultado);
-            }
-        }
+		}
     }
 }

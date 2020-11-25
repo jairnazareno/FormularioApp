@@ -64,6 +64,12 @@
     <Compile Include="frmEdadNombre.Designer.cs">
       <DependentUpon>frmEdadNombre.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmFactorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFactorial.Designer.cs">
+      <DependentUpon>frmFactorial.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmEdadNombre.resx">
       <DependentUpon>frmEdadNombre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFactorial.resx">
+      <DependentUpon>frmFactorial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>
