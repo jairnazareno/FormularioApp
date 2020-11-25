@@ -21,10 +21,10 @@ namespace FormularioApp
         {
             listBox1.Items.Clear();
             int tabla = int.Parse(txtNumero.Text);
-            int limite = int.Parse(txtLimite.Text);
+          
             int resultado;
 
-            for(int i=1; i<=limite; i++)
+            for(int i=1; i<=10; i++)
             {
                 resultado = tabla * i;
                 listBox1.Items.Add(tabla+" x "+i+"="+resultado);
