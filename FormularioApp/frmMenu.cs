@@ -118,5 +118,34 @@ namespace FormularioApp
         {
           
         }
+
+        private void binarioADecimalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmDeBinarioADecimal frm1 = new frmDeBinarioADecimal();
+            frm1.MdiParent = this;
+            frm1.Show();
+        }
+
+        private void edadToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmEdadNombre frm1 = new frmEdadNombre();
+            frm1.MdiParent = this;
+            frm1.Show();
+        }
+
+        private void tablaDeMultiplicarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            frmMultiplicar frm1 = new frmMultiplicar();
+            frm1.MdiParent = this;
+            frm1.Show();
+        }
+
+        private void factorialToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmFactorial frm1 = new frmFactorial();
+            frm1.MdiParent = this;
+            frm1.Show();
+        }
     }
 }

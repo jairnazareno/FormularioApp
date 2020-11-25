@@ -73,6 +73,16 @@ namespace FormularioApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _17018_4k {
+            get {
+                object obj = ResourceManager.GetObject("17018-4k", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bro {
             get {
                 object obj = ResourceManager.GetObject("bro", resourceCulture);
